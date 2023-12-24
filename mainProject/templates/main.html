@@ -1,0 +1,322 @@
+
+
+<!doctype html>
+
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE OASIS ONLINE SHOP</title>
+    <link rel="stylesheet" href=" {% static 'style.css' %} ">
+    <link rel="stylesheet" href=" {% static 'font-awesome-4.7.0/css/font-awesome.css' %} ">
+
+
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src=" {% static 'webimages/logo.png' %} " alt="image of the logo " width="120px" height="120px">
+
+                </div>
+
+                <!-----------------------------------adding nav bar------------------------------------------------------------->
+
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Accounts</a></li>
+                        <li><a href="">Contacts</a></li>
+                        <li><a href="">About</a></li>
+                        <li></li>
+                    </ul>
+                </nav>
+                <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+
+
+
+
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Take Your Online Shopping <br> To The Next Level!</h1>
+                    <p>Shopping online doesnt have to be hard.Oasis makes it easy for you,esteemed customer</p>
+                    <a href="" class="btn">DISCOVER &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="{% static 'webimages/shop.jpeg' %} " alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!---------------------------categories-------------------------------------------------->
+    <div class="categories">
+        <h2 class="cat-title">Categories</h2>
+
+        <div class="smallcontainer">
+
+
+            <div class="row">
+
+                <div class="col-3">
+
+                    <img src=" {% static 'webimages/nunix bluefan.jpg' " alt="">
+
+                </div>
+
+                <div class="col-3">
+
+                    <img src=" {% static 'webimages/blackfluffycarpet.jpeg' %}" alt="">
+
+                </div>
+
+                <div class="col-3">
+                    <img src=" {% static 'webimages/vitron42smarttv.jpeg' %}" alt="">
+
+                </div>
+
+                <div class="col-3">
+                    <img src=" {% static 'webimages/bag.jpg' %}" alt="">
+                </div>
+
+                <div class="col-3">
+                    <img src="{% static 'webimages/nunixwoofer.jpeg' }" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------Featured-----products---------------------------------------------------->
+    <div class="smallcontainer">
+
+        <h2 class="feat-prod">Featured Products</h2>
+        <div class="row">
+
+            <div class="col4">
+
+                <img src=" {% static 'webimages/greyfluffycarpet.jpeg' %}" alt="">
+                <h4>Grey Fluffy carpet</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 3000</p>
+
+            </div>
+            <!------------------------------adding-another product-------------------------------------------------------->
+            <div class="col4">
+
+                <img src=" {% static 'webimages/nunixblack.jpeg' %}" alt="">
+                <h4>Nunix Black Fan</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 3500</p>
+
+            </div>
+            <!----------------------------------------and another-------------------------------------------------------------------->
+
+            <div class="col4">
+
+                <img src=" {% static 'webimages/vitronsmarttv.jpeg' %}" alt="">
+                <h4>Vitron 32" smart Tv</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 18000</p>
+
+            </div>
+            <!--------------------------------------------------------------------------------------------------------------------------->
+            <div class="col4">
+
+                <img src=" {% static 'webimages/vitron3.1.jpeg' %}" alt="">
+                <h4> Vitron woofer</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 6000</p>
+            </div>
+
+
+
+        </div>
+        <!-------------------------------------latest products-------------------------------------------------------->
+        <h2 class="lat-prod">Latest Products</h2>
+
+        <div class="row">
+            <div class="col5">
+
+                <img src=" {% static 'webimages/nunix2.jpg' %}" alt="">
+                <h4> Vitron woofer</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 3500</p>
+            </div>
+            <!--------------------------------------------------------------------------------------------------------->
+            <div class="col5">
+
+                <img src=" {% static 'webimages/phonestand.jpg' %}" alt="">
+                <h4> Vitron woofer</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 3000</p>
+            </div>
+            <!------------------------------------------------------------------------------------------------------------>
+            <div class="col5">
+
+                <img src=" {% static 'webimages/wardrobepurple.jpg' %}" alt="">
+                <h4> Wardrobe</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 4999</p>
+            </div>
+            <!-------------------------------------------------------------------------------------------------------------->
+            <div class="col5">
+
+                <img src=" {% static 'webimages/laptop.jpg' %}" alt="">
+                <h4> Hp laptop</h4>
+
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 25000</p>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <!---------------------------------------offer---------------------------------------------------------->
+
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col6">
+                    <img src=" {% static 'webimages/arsenal jersey.png' %}" class="offer-img" alt="">
+                </div>
+
+
+                <div class="col6">
+
+                    <h2 class="oas-p">Available only on OASIS STORE</h2>
+                    <small>
+                        <i>The 2022-2023 arsenal jersey  gives you '90s vibes with
+                             a white collar and striped white lines</i>
+                    </small>
+
+                    <a href="" class="btn">Buy Now &#8594;</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------footer------------------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footercol1">
+                    <img src=" {% static 'webimages/logo.png' %}" alt="">
+                    <h3>Visit Our Website Today</h3>
+                    <p>available on all devices</p>
+                </div>
+                <div class="footercol3">
+                    <h3>contact us</h3>
+                    <ul>
+                        <li>
+                            <p><i class="fa fa-address-book"></i> 0723873183</p>
+
+
+                        </li>
+
+                        <li>
+                            <p><i class="fa fa-envelope-o"></i> oasisstore@gmail.com</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-whatsapp"></i> 0723873183</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
